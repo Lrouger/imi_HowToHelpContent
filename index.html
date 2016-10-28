@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HowToGetHelpContent</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+    <div class="canvas_wrap">
+        <div class="overlays">
+            <div class="overlay help">
+                <a id="close_help" href="javascript:void(0);" class="close fa fa-times"></a>
+                <div class="inner">
+                    <ul class="tabs">
+                        <li class="active">
+                            <a href="javascript:void(0);">Basic Control</a>
+                        </li>
+                    </ul>
+                    <div class="tabs-container">
+                        <div class="tab active" data-tab='basic'>
+                            <div class="tip">
+                                <div>
+                                    <i class="fa fa-refresh"></i>
+                                </div>
+                                <div>
+                                    <b>Orbit around</b>
+                                    <div>Left click + drag</div>
+                                </div>
+                            </div>
+                            <div class="tip">
+                                <div>
+                                    <i class="fa fa-search-plus"></i>
+                                </div>
+                                <div>
+                                    <b>Zoom</b>
+                                    <div>
+                                        Double click on model
+                                        <br> or scroll anywhere</div>
+                                </div>
+                            </div>
+                            <div class="tip">
+                                <div>
+                                    <i class="fa fa-arrows"></i>
+                                </div>
+                                <div>
+                                    <b>Pan</b>
+                                    <div>Right click + drag</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button class="button" data-action="reset-camera">Reset camera view</button>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="general-controls">
+                    <a href="#" class="control question">
+                        <i class="fa fa-question"></i>
+                    </a>
+                    <a href="#" class="control">
+                        <i class="fa fa-cog"></i>
+                    </a>
+                    <a href="#" class="control">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
